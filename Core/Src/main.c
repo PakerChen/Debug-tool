@@ -127,8 +127,8 @@ int main(void)
 		{
 			Usart3_SendData(usart3_rx_buf, usart3_rx_len);
 		}
-//		HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_5);
-//		HAL_Delay(500);
+    HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_5);
+    HAL_Delay(500);
   }
   /* USER CODE END 3 */
 }
